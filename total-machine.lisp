@@ -14,13 +14,14 @@
   (read-line *query-io*))
 
 (defun parse-input (s)
-  (if (or
-       (digit-char-p (char s 0))
-       (match char= (char s 0)
-         +fraction-char+
-         +multi-mode-starting-char+))
-      (parse-calculation s)
-      (parse-command s)))
+  (unless (zerop (length s))
+    (if (or
+	 (digit-char-p (char s 0))
+	 (match char= (char s 0)
+	   +fraction-char+
+	   +multi-mode-starting-char+))
+	(parse-calculation s)
+	(parse-command s))))
 
 (defun parse-operation ()
   (let ((result (parse-input (prompt-read (format nil "[~a] " (incf *index*))))))
