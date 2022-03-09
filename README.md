@@ -2,7 +2,7 @@
 
 A calculator application for fast additions of single digit numbers (and multidigit & fractions too).
 
-Useful while 
+Useful for teachers while checking copies for faster totaling of marks. Hence, `total-machine`.
 
 ## Building
 
@@ -62,21 +62,21 @@ explantion: 1 + 2 + 0.5 + 3 + 4 + 0.5 + 0.5 = 11.5
 ### Multidigit mode
 
 ```
-$/12/
+$ /12/
 12
 ```
 
 explanation: `/` opens and closes multidigit mode (no need to close, if `/` is the last character)
 
 ```
-$/12/23/34/
+$ /12/23/34/
 51
 ```
 
 explanation: 12 + 2 + 3 + 34 = 51
 
 ```
-$/1.2/2.3/3.4/
+$ /1.2/2.3/3.4/
 51 1/2
 ```
 
