@@ -92,3 +92,5 @@ explanation: 12 + 2 + 0.5 + 3 + 34 = 51.5 (fractions do not work in multidigit m
 
  - Improve code for command management, make it easier to add more commands. (`command-management.lisp`)
  - Add more commands.
+ - Use build system like ASDF.
+ - Use quicklisp.
