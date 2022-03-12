@@ -6,15 +6,9 @@ Useful for teachers while checking copies for faster totaling of marks. Hence, `
 
 ## Building
 
-Run `./build.sh` to build.
+Run `chmod +x machine.lisp` in the directory to make it executable. Now, you can simply run `./machine.lisp` to use it.
 
-It loads appropriate files into sbcl and calls `save-lisp-and-die` from `sb-ext` package to make `machine` executable.
-
-## Use
-
-Run `./machine` to use.
-
-Read examples for more examples.
+Alternatively, running `sbcl --script machine.lisp` also works.
 
 ## Examples
 
