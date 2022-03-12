@@ -28,9 +28,9 @@ $ 1234567890
 45
 ```
 
-### Fractions
-
 explanation: 1 + 2 + ... + 9 + 0 = 45
+
+### Fractions
 
 ```
 $ .
